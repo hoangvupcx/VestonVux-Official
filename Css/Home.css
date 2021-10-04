@@ -11,6 +11,27 @@
     padding: 0;
     margin: 0;
 }
+.animation-left {
+    animation: fadeInLeft 0.75s;
+}
+.animation-right {
+    animation: fadeInRight 0.75s;
+}
+.animation-in {
+    animation: fadeIn 0.75s;
+}   
+.animation-inUp {
+    animation: fadeInUp 0.75s;
+}
+.animation-inDown {
+    animation: fadeInDown 0.75s;
+}
+.animation-backInUp {
+    animation: backInUp 0.75s;
+}
+.fade {
+    animation: slideInDown 0.5s;
+}
 /*------------------------------logo----------------------------*/
 .vestonvux {
     background-color: black !important;
