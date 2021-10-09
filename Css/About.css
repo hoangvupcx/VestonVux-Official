@@ -49,6 +49,7 @@ img {
 .hr-about {
     border-top: 2px solid #0e0d0d;
     width: 90%;
+    margin: revert;
 }
 div.content > div.text-first  p {
     margin-left: 51%;
@@ -164,8 +165,12 @@ input[type="text"], input[type="email"], input[type="number"], .select_join {
     border-radius: 2px;
     font-size: 1rem;
     width: 50%;
+    padding-left: 10px;
     background-color: white;
     font-family: Questrial, sans-serif;
+}
+input[type="text"]::placeholder {
+    margin-left: 10px;
 }
 textarea {
     border: 1px solid #181818;
@@ -428,6 +433,7 @@ option {
         height: 23px;
         font-size: 8px;
         border: 0.5px solid black;
+        padding-left: 5px;
     }
     option {
         font-size: 8px;
