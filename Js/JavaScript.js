@@ -52,13 +52,13 @@ $(document).ready(function() {
     $('.accordion-header1').click(function(){
         $(this).parent().toggleClass('active');
         $(this).parent().children('.accordion-body1').slideToggle(); // Từ header tìm về cha (item) rồi đưa về con (body)
-    }) // Thả accordion xuống (responsive)
+    }) // Thả accordion xuống (responsive - Items-Product)
 
     $('#btnSearch').click(function() {
         var k = $('#kw').val()
-        $(`div.text-product p:contains(${k})`).parent().parent().css("background-color", "#d5d3cd")
-        $(`div.text-product pre:contains(${k})`).parent().parent().css("background-color", "#d5d3cd")
-    }) // Công cụ tìm kiếm
+        $(`div.text-product p:contains(${k})`).parent().parent().css("color", "rgba(41,42,46,0.6)")
+        $(`div.text-product pre:contains(${k})`).parent().parent().css("color", "rgba(41,42,46,0.6)")
+    }) // Công cụ tìm kiếm (Products)
     
 });
 

@@ -590,6 +590,9 @@ input.button:hover {
 
 
 /*-----------------------------------------------------------Carousel-------------------------------------------------------*/
+.carousel-item {
+    transition: all 0.75s;
+}
 .carousel-inner img {
     width: 100%;
     align-content: center;
