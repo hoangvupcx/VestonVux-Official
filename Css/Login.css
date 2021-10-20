@@ -57,6 +57,7 @@ h2.create {
     font-family: Questrial, sans-serif;
     border-radius: 0 0 0 7px;
     width: 100%;
+    transition: all 0.5s;
 }
 
 .form-text:hover {
@@ -94,6 +95,7 @@ h2.create {
     border: none;
     text-align: center;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .form-submit:hover {
@@ -115,8 +117,32 @@ h2.create {
     align-items: center;
     display: flex;
 }
+.register-facebook div{
+    background-color: #3b5998;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 10% auto;
+    transition: all 0.5s;
+}
+.register-facebook div:hover {
+    background-color: #1e325e;
+}
+.register-facebook div span {
+    color: white;
+    font-size: 16px;
+}
+.fa-facebook-square {
+    color: white;
+    font-size: 30px;
+    display: block;
+}
 a {
     text-decoration: none;
+    transition: all 0.5s;
 }
 a:hover {
     text-decoration: none;
@@ -166,6 +192,16 @@ a:hover {
         height: 35px;
         font-size: 14px;
     }
+    .register-facebook div {
+        width: 90%;
+        padding: 12px;
+    }
+    .register-facebook div span {
+        font-size: 14px;
+    }
+    .fa-facebook-square {
+        font-size: 25px;
+    }
 }
 @media screen and (max-width: 800px) /*200%*/ {
     .form {
@@ -197,6 +233,16 @@ a:hover {
     .form-submit, .form-register {
         height: 30px;
         font-size: 12px;
+    }
+    .register-facebook div {
+        width: 90%;
+        padding: 10px;
+    }
+    .register-facebook div span {
+        font-size: 12px;
+    }
+    .fa-facebook-square {
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 750px) /*250%*/ {
@@ -234,6 +280,16 @@ a:hover {
     .form-submit:hover, .form-register {
         border: 1px solid grey ;
     }
+    .register-facebook div {
+        width: 90%;
+        padding: 10px;
+    }
+    .register-facebook div span {
+        font-size: 10px;
+    }
+    .fa-facebook-square {
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 600px) /*300%*/ {
     .form {
@@ -263,6 +319,16 @@ a:hover {
     .form-submit, .form-register {
         height: 20px;
         font-size: 8px;
+    }
+    .register-facebook div {
+        width: 100%;
+        padding: 8px;
+    }
+    .register-facebook div span {
+        font-size: 8px;
+    }
+    .fa-facebook-square {
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 450px) /*400%*/ {
@@ -298,6 +364,19 @@ a:hover {
     }
     .form-submit {
         margin-top: 0;
+    }
+    .spacer {
+        display: none;
+    }
+    .register-facebook div {
+        width: 80%;
+        padding: 5px;
+    }
+    .register-facebook div span {
+        font-size: 6px;
+    }
+    .fa-facebook-square {
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 360px) /*500%*/ {

@@ -283,7 +283,7 @@ div.text-item-1 {
 }
 .text-new-season h1 {
     margin: 0;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px black;
 }
 
 
@@ -296,7 +296,7 @@ div.text-item-1 {
 .text-new-season-products h1 {
     margin: 0;
     font-size: 60px;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px black;
 }
 .button-new-season input {
     padding: 10px;
