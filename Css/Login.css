@@ -124,6 +124,12 @@ h2.create {
     justify-content: center;
     align-items: center;
     display: flex;
+    transition: all 0.5s;
+}
+.form-register:hover {
+    color: white;
+    background-color: black;
+    border: none;
 }
 .register-facebook div {
     background-color: #3b5998;
@@ -169,11 +175,6 @@ a {
 }
 a:hover {
     text-decoration: none;
-}
-.form-register:hover {
-    color: white;
-    background-color: black;
-    border: none;
 }
 .spacer {
     margin-top: 36px;
