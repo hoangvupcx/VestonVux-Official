@@ -303,7 +303,9 @@ div.text-item-1 {
     font-size: 30px;
     width: 400px !important;
 }
-
+.end p {
+    padding-top: 100px;
+}
 
 
 /*------------------------MEDIA QUERY------------------------------*/
@@ -346,7 +348,9 @@ div.text-item-1 {
         font-size: 20px;
         width: 300px !important;
     }
-    
+    .end p {
+        padding-top: 0px;
+    }
 }
 
 @media screen and (max-width: 750px) /*250%*/ {

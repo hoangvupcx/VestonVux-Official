@@ -32,11 +32,19 @@ body {
     font-size: 35px;
     margin: 20px 0;
     letter-spacing: 0.5px;
-    font-weight: lighter;
     text-align: start;
 }
 h2.create {
     text-align: center !important;
+}
+.or {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+    text-align: center !important;
+}
+.or p {
+    margin-bottom: 0;
 }
 .form-group {
     display: flex;
@@ -117,7 +125,7 @@ h2.create {
     align-items: center;
     display: flex;
 }
-.register-facebook div{
+.register-facebook div {
     background-color: #3b5998;
     padding: 15px;
     display: flex;
@@ -125,17 +133,32 @@ h2.create {
     text-align: center;
     justify-content: space-evenly;
     width: 80%;
-    margin: 10% auto;
+    margin: 5% auto;
+    transition: all 0.5s;
+}
+.register-apple div {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 5% auto;
     transition: all 0.5s;
 }
 .register-facebook div:hover {
     background-color: #1e325e;
 }
-.register-facebook div span {
+.register-apple div:hover {
+    background-color: rgb(68, 65, 65);
+}
+.register-facebook div span, .register-apple div span {
     color: white;
     font-size: 16px;
+    letter-spacing: 0.5px;
 }
-.fa-facebook-square {
+.fa-facebook-square, .fa-apple {
     color: white;
     font-size: 30px;
     display: block;
@@ -147,13 +170,11 @@ a {
 a:hover {
     text-decoration: none;
 }
-
 .form-register:hover {
     color: white;
     background-color: black;
     border: none;
 }
-
 .spacer {
     margin-top: 36px;
 }
@@ -192,14 +213,14 @@ a:hover {
         height: 35px;
         font-size: 14px;
     }
-    .register-facebook div {
+    .register-facebook div, .register-apple div  {
         width: 90%;
         padding: 12px;
     }
-    .register-facebook div span {
+    .register-facebook div span, .register-apple div span {
         font-size: 14px;
     }
-    .fa-facebook-square {
+    .fa-facebook-square, .fa-apple {
         font-size: 25px;
     }
 }
@@ -234,14 +255,14 @@ a:hover {
         height: 30px;
         font-size: 12px;
     }
-    .register-facebook div {
+    .register-facebook div, .register-apple div {
         width: 90%;
         padding: 10px;
     }
-    .register-facebook div span {
+    .register-facebook div span, .register-apple div span {
         font-size: 12px;
     }
-    .fa-facebook-square {
+    .fa-facebook-square, .fa-apple, .or p {
         font-size: 20px;
     }
 }
@@ -280,14 +301,14 @@ a:hover {
     .form-submit:hover, .form-register {
         border: 1px solid grey ;
     }
-    .register-facebook div {
+    .register-facebook div, .register-apple div {
         width: 90%;
         padding: 10px;
     }
-    .register-facebook div span {
+    .register-facebook div span, .register-apple div span {
         font-size: 10px;
     }
-    .fa-facebook-square {
+    .fa-facebook-square, .fa-apple, .or p {
         font-size: 15px;
     }
 }
@@ -320,14 +341,14 @@ a:hover {
         height: 20px;
         font-size: 8px;
     }
-    .register-facebook div {
+    .register-facebook div, .register-apple div {
         width: 100%;
         padding: 8px;
     }
-    .register-facebook div span {
+    .register-facebook div span, .register-apple div span {
         font-size: 8px;
     }
-    .fa-facebook-square {
+    .fa-facebook-square, .fa-apple, .or p {
         font-size: 15px;
     }
 }
@@ -368,14 +389,14 @@ a:hover {
     .spacer {
         display: none;
     }
-    .register-facebook div {
+    .register-facebook div,.register-apple div {
         width: 80%;
         padding: 5px;
     }
-    .register-facebook div span {
+    .register-facebook div span, .register-apple div span {
         font-size: 6px;
     }
-    .fa-facebook-square {
+    .fa-facebook-square, .fa-apple, .or p {
         font-size: 12px;
     }
 }
