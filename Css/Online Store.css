@@ -1,0 +1,218 @@
+.header-form {
+    background-image: url(https://images.unsplash.com/photo-1446797376004-9352dfc9f789?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 6%;
+}
+.cover-form {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+}
+.header-privacy {
+    margin: 0 10%;
+    padding: 3% 0;
+}
+.header-privacy h2 {
+    letter-spacing: 2px;
+}
+.header-privacy span {
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+}
+.required {
+    text-align: end;
+    width: 100%;
+}
+.privacy {
+    width: 100%;
+}
+.form-privacy  {
+    display: flex;
+    width: 100%;
+}
+.form-privacy label {
+    margin: 0;
+    font-size: 12px;
+}
+li {
+    list-style-type: none;
+}
+.form-text {
+    width: 85%;
+}
+.form-left {
+    width: 100%;
+    margin-left: 10%;
+}
+.form-right{
+    width: 100%;
+    margin-right: 5%;
+}
+.form-caption input {
+    height: 45px;
+}
+textarea {
+    max-width: 100%;
+    min-height: 100px;
+    width: 85%;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+input {
+    padding: 0 10px;
+    font-size: 16px;
+}
+.submit {
+    width: 85% !important;
+    margin: 0;
+}
+.form-caption.invalid .form-text {
+    border: 2px solid red;
+}
+.form-caption.invalid .form-request {
+    color: red;
+    width: 85%;
+}
+
+
+
+
+
+/*---------------------Virtual Tour----------------------*/
+.header-tour {
+    text-align: center;
+    margin: 2% 0 4% 0;
+    width: 100%;
+}
+.header-tour h2 {
+    font-family: Acta Display W01 Book;
+}
+.slot-iframe {
+    margin: 0 10%;
+}
+.iframe {
+    width: 80%; 
+    height: 500px;
+}
+
+
+/*---------------------Online Purchases----------------------*/
+.modal-online-purchases {
+    color: black;
+    text-decoration: underline;
+}
+.modal-online-purchases:hover {
+    font-weight: bold;
+    color: black;
+}.modal-body p {
+    margin: 0;
+}
+
+
+/*------------------------------------------------------MEDIA QUERY---------------------------------------------------------*/
+@media screen and (max-width: 1050px) /*150%*/ {
+    .header-privacy h2 {
+        font-size: 28px;
+        margin: 0;
+    }
+    .header-privacy span, .required i {
+        font-size: 14px;
+    }
+    .form-privacy label {
+        font-size: 10px;
+    }
+    .form-caption input, .submit {
+        height: 40px;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 800px) /*200%*/ {
+    .header-privacy h2 {
+        font-size: 25px;
+    }
+    .header-privacy span, .required i {
+        font-size: 12px;
+        line-height: 15px;
+        display: block;
+    }
+    .form-privacy label {
+        font-size: 8px;
+    }
+    .form-caption input, .submit {
+        height: 30px;
+        font-size: 10px;
+    }
+    .form-caption input, textarea {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .form-caption.invalid .form-request {
+        font-size: 8px;
+        line-height: 12px;
+        display: block;
+    }
+    .form-caption.invalid .form-text {
+        border: 1px solid red;
+    }
+    .form-privacy br:not(.break) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) /*300%*/ {
+    .header-privacy h2 {
+        font-size: 20px;
+    }
+    .header-privacy span, .required i {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .form-privacy label {
+        font-size: 6px;
+    }
+    .form-caption input, .submit {
+        height: 20px;
+        font-size: 8px;
+    }
+    .form-caption input, textarea {
+        padding: 0 5px;
+        font-size: 8px;
+    }
+    .form-caption.invalid .form-request {
+        font-size: 6px;
+        line-height: 10px;
+        display: block;
+    }
+    .form-caption.invalid .form-text {
+        border: 1px solid red;
+    }
+}
+
+@media screen and (max-width: 450px) /*400%*/ {
+    .header-privacy h2 {
+        font-size: 15px;
+    }
+    .header-privacy span, .required i {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .form-privacy label {
+        font-size: 4px;
+    }
+    .form-caption input, .submit {
+        height: 15px;
+        font-size: 6px;
+    }
+    .form-caption input, textarea {
+        font-size: 6px;
+    }
+    .form-caption.invalid .form-request {
+        font-size: 4px;
+        line-height: 10px;
+        display: block;
+    }
+}

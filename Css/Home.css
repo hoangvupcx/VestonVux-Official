@@ -30,6 +30,7 @@
     animation: backInUp 0.75s;
 }
 .fade {
+    transition: all 0.25s;
     animation: slideInDown 0.5s;
 }
 /*------------------------------logo----------------------------*/
@@ -573,6 +574,78 @@ input.button:hover {
     border-color: #f33a58 !important;
     font-family: Questrial, sans-serif;
 }
+
+.appointment-contact {
+    width: 90%;
+    margin: 0 auto;
+}
+.appointment {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: start !important;
+}
+.appointment div {
+    margin-left: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.appointment i {
+    font-size: 30px;
+    padding: 10px;
+}
+.tittle-form h2 {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.accordion-header2 {
+    justify-content: left !important;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #1a1919;
+    display: flex;
+    cursor: pointer;
+}
+.accordion-header2 i:last-child {
+    margin-left: auto;
+}
+.accordion-item2:last-child {
+    margin-bottom: 30px;
+}
+.accordion-item2:first-child {
+    margin-top: 30px;
+}
+.accordion-item2.active .accordion-header1 {
+    background-color: #f3f3f3;
+    border-bottom: none;
+}
+.accordion-item2.active .arrow {
+    transform: rotate(180deg);
+}
+.accordion-body2 {
+    font-family: Questrial, sans-serif;
+    font-size: 20px;
+    padding: 20px 30px;
+    display: none;
+    border-bottom: 1px solid #1a1919;
+}
+.accordion-body2 a {
+    color: black;
+    font-size: 20px;
+    display: block;
+}
+.accordion-body2 a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+.accordion-body2 div {
+    padding: 10px 0;
+    width: 80%;
+}
+.accordion-body2 hr {
+    border-color: rgb(192, 188, 188);
+}
 /*-----------------------------------------------------------End Contact---------------------------------------------------------*/
 
 
@@ -719,7 +792,7 @@ input.button:hover {
     width: 400px;
     margin-top: 15px;
     margin-bottom: 50px;
-    color: #f3f3f3;
+    color: white;
     background-color: black;
     border: none;
     text-align: center;
@@ -727,7 +800,7 @@ input.button:hover {
 }
 .submit:hover {
     color: black;
-    background-color: #f3f3f3;
+    background-color: white;
     border: 2px solid black ;
 }
 div.form-content {
@@ -922,9 +995,15 @@ div.item-footer p {
     .responds div {
         margin: 15px !important;
     }
-    
     .responds div.form-caption.invalid .form-note {
         font-size: 15px;
+    }
+    .appointment i {
+        font-size: 25px;
+    }
+    .appointment div, .accordion-body2 a {
+        font-size: 18px;
+        width: 100%;
     }
 
     /*-------------------End Contact-----------------*/
@@ -1075,6 +1154,14 @@ div.item-footer p {
     }
     .responds div.form-caption > input.form-text-caption {
         width: 300px !important;
+    }
+    .tittle-form h2 {
+        font-size: 25px;
+        margin: 0;
+    }
+    .tittle-form span {
+        font-size: 12px;
+        display: block;
     }
 }
 @media screen and (max-width: 800px) /*200%*/ {
@@ -1231,6 +1318,23 @@ div.item-footer p {
     }
     .responds div.form-caption.invalid .form-note {
         font-size: 12px;
+    }
+    .appointment i {
+        font-size: 20px;
+    }
+    .appointment div, .accordion-body2 a {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .accordion-body2 div {
+        padding: 0;
+    }
+    
+    .tittle-form h2 {
+        font-size: 20px;
+    }
+    .tittle-form span {
+        font-size: 10px;
     }
 /*-------------------End Contact-----------------*/
 
@@ -1462,6 +1566,27 @@ div.item-footer p {
     .responds div.form-caption.invalid .form-note{
         font-size: 8px;
     }
+    .appointment i {
+        font-size: 15px;
+    }
+    .accordion-body2 {
+        padding: 10px 20px;
+    }
+    .accordion-body2 hr {
+        margin: 0.5rem 0;
+    }
+    .appointment div, .accordion-body2 a {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .tittle-form h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .tittle-form span {
+        font-size: 10px;
+        line-height: 15px;
+    }
     /*-------------------End Contact-----------------*/
 
     
@@ -1660,6 +1785,21 @@ div.item-footer p {
     .responds div.form-caption.invalid .form-note {
         font-size: 7px;
     }
+    .appointment i {
+        font-size: 15px;
+    }
+    .appointment div, .accordion-body2 a {
+        font-size: 10px;
+    }
+    .accordion-header2 {
+        padding: 5px;
+    }
+    .tittle-form h2 {
+        font-size: 15px;
+    }
+    .tittle-form span {
+        font-size: 8px;
+    }
     /*-------------------End Contact-----------------*/
     
 
@@ -1812,6 +1952,18 @@ div.item-footer p {
     }
     .responds div {
         margin: 0px !important;
+    }
+    .appointment i {
+        font-size: 12px;
+    }
+    .appointment div, .accordion-body2 a {
+        font-size: 8px;
+    }
+    .tittle-form h2 {
+        font-size: 12px;
+    }
+    .tittle-form span {
+        font-size: 8px;
     }
 
     /*-------------------End Contact-----------------*/

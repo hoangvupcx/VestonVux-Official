@@ -161,7 +161,7 @@ h5 {
     transform: rotate(180deg);
 }
 .arrow {
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 .accordion-body1 {
     font-family: Questrial, sans-serif;

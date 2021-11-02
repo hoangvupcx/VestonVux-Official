@@ -54,6 +54,12 @@ $(document).ready(function() {
         $(this).parent().children('.accordion-body1').slideToggle(); // Từ header tìm về cha (item) rồi đưa về con (body)
     }) // Thả accordion xuống (responsive - Items-Product)
 
+    $('.accordion-item2.active .accordion-body2').slideDown(); // Khi accordion active thì đổi màu nền 
+    $('.accordion-header2').click(function(){
+        $(this).parent().toggleClass('active');
+        $(this).parent().children('.accordion-body2').slideToggle(); // Từ header tìm về cha (item) rồi đưa về con (body)
+    }) // Thả accordion xuống (responsive - Items-Product)
+
     $('#btnSearch').click(function() {
         var k = $('#kw').val()
         $(`div.text-product p:contains(${k})`).parent().parent().css("color", "rgba(41,42,46,0.6)")
