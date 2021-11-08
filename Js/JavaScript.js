@@ -18,6 +18,11 @@ $(document).ready(function() {
     $("body .product-item:nth-child(even) > div").addClass("wow animation-right")
     $("body .product-item:nth-child(odd) > div").addClass("wow animation-left")
     $("body ul.menu li a").addClass("wow animation-backInUp")
+    $("#book-appointment li").addClass("wow animate__fadeIn animation-inUp")
+    $(".form-left li").addClass("wow animation-left")
+    $(".form-right li").addClass("wow animation-right")
+    $(".cover-form").addClass("wow animation-in")
+
     
     wow = new WOW(
         {

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VestonVux | Made to Measure Collection</title>
+    <link rel="stylesheet" href="./Css/Measure.css">
+    <link rel="stylesheet" href="./Css/Home.css">   
+    <link rel="stylesheet" href="./Css/Collection.css"> 
+    <link rel="shortcut icon" href="./images/images/LOGO VESTONVUX-04.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Js/JavaScript.js"></script>
+    <script src="./Js/Validation.js"></script>
+    <style>
+        .form .heading {
+            font-size: 35px;
+            text-align: start;
+        }
+        .info {
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 0;
+        }
+        .end-info {
+            margin-bottom: 20px;
+        }
+        .main {
+            background-image: url(https://www.armani.com/content/images/cms/ycm/resource/blob/68948/110938b0b27671becba65b22b47fa3b8/made-to-measure-behind-the-scenes-giorgioarmani-bts-data.jpg/w1920.jpg);
+        }
+    </style>
+</head>
+<body>
+  <!-----------------Navigation---------------->
+    <nav>
+        <ul class="header-topbar">
+            <li >
+                <a href="./index.html">
+                    VESTONVUX.COM
+                </a>
+            </li>
+            <li>
+                <a href="./Login.html">MY ACCOUNT</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/maps/dir/10.870013,106.6173419/371+Nguy%E1%BB%85n+Ki%E1%BB%87m,+Ph%C6%B0%E1%BB%9Dng+3,+G%C3%B2+V%E1%BA%A5p,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.8453975,106.6084666,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x317528e1fa99872d:0x6a2ca231c09e5a01!2m2!1d106.676983!2d10.8172801">STORE LOCATOR</a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-search search-toggle"></i>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-shopping-bag login-and-register"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="search-box">
+        <div class="search">
+            <i style="margin: 0 10px" class="fas fa-search search-icon" id="btnSearch" data-toggle="modal" data-target="#myModal"></i>
+            <input type="text" id="kw" placeholder="Search...">
+            <span class="clear" onclick="document.getElementById('kw').value = ''"></span>
+        </div>
+    </div>
+    
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Search Results </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Your Search in this box will be shown by the Gray color
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+
+    <div class="login-register">
+        <p>Log in or Register to My Account to access your bag across your devices.</p>
+        <a href="./Login.html"><input type="button" value="Login"></a>
+        <a href="./Register.html"><input type="button" value="Register"></a>
+    </div>
+
+
+    <div class="vestonvux">
+        <a href="./Anniversary.html"><img src="./images/images/LOGO VESTONVUX-02.png" alt=""></a>
+        <div id="toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li><a href="./New.html">NEW</a></li>
+            <li><a href="./Sale.html">SALE</a></li>
+            <li><a href="./Products.html">PRODUCTS</a></li>
+            <li><a href="./Collections.html">COLLECTIONS</a></li>
+            <li class="right"><a href="./Contact.html">CONTACT</a></li>
+            <li class="right"><a href="./About.html">ABOUT</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+<div class="banner wow animation-inUp">
+    <img src="./banner.jpg" alt="" class="" style="padding: 0 !important;">
+</div>
+
+<div class="measure">
+    <div class="measure-content wow animation-left">
+        <div class="measure-text">
+            <h1>VESTONVUX</h1>
+            <p>
+                MADE TO MEASURE
+            </p>
+            <h2>VESTONVUX MADE TO MEASURE CAMPAIGN FOR SPRING/SUMMER 2021.</h3>
+            <a href="./Measure Collection.html">
+                <button class="submit">Browse the catalogue</button>
+            </a>
+        </div>
+    </div>
+    
+    <div class="measure-picture wow animation-right">
+        <img src="https://www.armani.com/content/images/cms/ycm/resource/blob/68908/b19846029d287d50d5be06c0961d5796/giorgio-armani-m-mtm-slider-2-1-data.jpg/w1200.jpg" alt="">
+    </div>
+</div>
+
+<div class="measure">
+    <div class="measure-picture wow animation-left">
+        <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_13_1x1-1500x1500.jpg" alt="">
+    </div>
+
+    <div class="measure-content wow animation-right">
+        <div class="measure-text">
+            <h1>AN EMPHASIS ON NATURAL SOPHISTICATION</h1>
+            <p>
+                The result of skilled artistry, VestonVux Made to Measure tailoring combines the refinement of VestonVux aesthetics with the richness of tailor-made craftsmanship. The service is designed for a gentle-mannered yet determined man for whom elegance is an attitude, a contemporary way of presenting himself.
+            </p>
+            <a href="./Book Measure.html">
+                <button class="submit">Book an Appointment</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<br>
+<div id="demo" class="carousel slide wow animation-inUp" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner abc">
+      
+        <div class="carousel-item active">
+            <img class="picture" src="https://www.armani.com/content/images/cms/ycm/resource/blob/68930/0e59f354de25e085d9653e8d19a92094/service-attention-made-to-measure-giorgioarmani-04--data.jpg/w1920.jpg" alt="pic2">
+            <div class="carousel-caption-measure">
+                <p>THE FINEST DETAILS</p>
+                <div class="text-measure">
+                    EXQUISITE FABRICS AND IMPECCABLE CUTS
+                </div>
+                <p>Your immersion into the bespoke world of VestonVux continues with the selection of details such as fabric, cut, lapel shape, shirt collars and cuffs, that are to be woven into the character of your personalized suit. Your tailor will follow you during the entire process, proposing a range of high quality styles and options for you to choose from based on what feels unique to you.</p>
+                <div class="button-holiday">
+                    <a href="./Measure.html"><input type="button" value="Discover the details" style="margin: 10px 0 0 0; width: 250px;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="picture" src="https://www.armani.com/content/images/cms/ycm/resource/blob/68926/cc06cd931ec116ea9f8f19d9e262454e/service-attention-made-to-measure-giorgioarmani-02--data.jpg/w1920.jpg" alt="pic3">
+            <div class="carousel-caption-measure">
+                <p>A MEASURE ABOVE</p>
+                <div class="text-measure">
+                    THE PERSONALISED FIT
+                </div>
+                <p>Every VestonVux Made to Measure suit embodies the hallmarks of the designer’s style codes. From the shoulders down, the suit will hang perfectly to your body’s contours. The highly exact measurement process will ensure that the suit has only one fit: yours.</p>
+                <div class="button-holiday">
+                    <a href="./Measure.html"><input type="button" value="The importance of fit" style="margin: 10px 0 0 0; width: 250px;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="picture" src="https://www.armani.com/content/images/cms/ycm/resource/blob/68934/e2f7d0a833601e604d2411caf41df08a/service-attention-made-to-measure-giorgioarmani-01--data.png/w1920.jpg" alt="pic4">
+            <div class="carousel-caption-measure">
+                <p>THE MARK OF EXCELLENCE</p>
+                <div class="text-measure">
+                    MADE WITH SARTORIAL SAVOIR-FAIRE
+                </div>
+                <p>Each VestonVux Made to Measure suit is meticulously assembled over a 21 day period. Elements are added with the highest care possible, before being delivered to the Giorgio Armani store, or any other location of your choice.</p>
+                <div class="button-holiday">
+                    <a href="./Measure.html"><input type="button" value="Meet our master cutters" style="margin: 10px 0 0 0; width: 250px;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="picture" src="https://www.armani.com/content/images/cms/ycm/resource/blob/68928/6ed22c4a90722727bd82dee4ad17e6aa/service-attention-made-to-measure-giorgioarmani-05--data.jpg/w1920.jpg" alt="pic5">
+            <div class="carousel-caption-measure">
+                <p>THE LAST FITTING</p>
+                <div class="text-measure">
+                    MADE WITH SARTORIAL SAVOIR-FAIRE
+                </div>
+                <p>You will be contacted as soon as your suit is ready for a final fitting, and barring any last adjustments, the suit is yours to wear with confidence. Each garment is a pinnacle of excellence in tailoring and style.</p>
+                <div class="button-holiday">
+                    <a href="./Book Measure.html"><input type="button" value="Book an appointment" style="margin: 10px 0 0 0; width: 250px;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span><i class="fas fa-chevron-left"></i></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span><i class="fas fa-chevron-right"></i></span>
+    </a>
+</div>
+
+  <!----------Footer--------->
+  <hr style="visibility:hidden;">
+  <hr class="hr-header">
+  <div>	
+      <div>
+          <div>
+              <h2 class="text-footer">CONTACT US</h2>
+          </div>
+          <div class="social">
+              <a href="https://vi-vn.facebook.com/"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/?lang=vi"><i class="fab fa-twitter"></i></a>
+              <a href="https://ads.google.com/intl/vi_vn/getstarted/?subid=vn-vi-ha-awa-bk-c-l00!o3~Cj0KCQjwpreJBhDvARIsAF1_BU0gVty5XnpyxESqt2ekO4PX48hqa7GhxhUliWslavbkWfshDjcpb70aAhLTEALw_wcB~123593086017~kwd-21283811~13984401112~538552239800&gclsrc=aw.ds&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU0gVty5XnpyxESqt2ekO4PX48hqa7GhxhUliWslavbkWfshDjcpb70aAhLTEALw_wcB"><i class="fab fa-google-plus-g"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+              <hr style="visibility: hidden;">
+           </div>
+      </div>
+  </div>
+
+  <footer class="footer">
+      <div class="row item-footer">
+          <div>
+                <hr class="hr-footer">
+                <h5 class="title-footer">NEED HELP?</h5>
+                <hr class="hr-footer">
+                <p>028.3920.7621</p>
+                <p>info@vestonvux.com</p>
+                <p>371 Nguyen Kiem, Ward 3, Go Vap District, HCM city</p>
+          </div>
+          <div>
+                <hr class="hr-footer">
+                <h5 class="title-footer">WORKING HOURS</h5>
+                <hr class="hr-footer">
+                <p>Monday-Friday: 8:00 - 20:00</p>
+                <p>Weekend: 8:00 - 17:00</p>
+          </div>
+          <div>
+              <hr class="hr-footer">
+      <h5 class="title-footer">BECOME A MEMBER</h5>
+      <hr class="hr-footer">
+              <p>Join now and get 10% off your second purchase, and free returns on all online purchases!</p>
+          </div>
+      </div>
+      <div class="copy">
+          <hr class="hr-end">
+              <h5> Copyright &copy; VESTONVUX</h5>
+      </div>
+  </footer>
+</body>
+</html>

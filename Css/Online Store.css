@@ -89,6 +89,10 @@ input {
 }
 .header-tour h2 {
     font-family: Acta Display W01 Book;
+    margin: 0 5%;
+}
+.header-tour p {
+    margin: 0 8%;
 }
 .slot-iframe {
     margin: 0 10%;

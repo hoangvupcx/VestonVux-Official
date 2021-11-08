@@ -554,6 +554,9 @@ input.button:hover {
     color: #f33a58;
     font-family: Questrial, sans-serif;
 }
+.form-note {
+    padding-left: 56%;
+}
 .form-text-caption {
     height: 40px;
     padding-top: 8px;
@@ -1319,6 +1322,9 @@ div.item-footer p {
     .responds div.form-caption.invalid .form-note {
         font-size: 12px;
     }
+    .form-note {
+        padding-left: 50%;
+    }
     .appointment i {
         font-size: 20px;
     }
@@ -1556,7 +1562,7 @@ div.item-footer p {
     .responds div.form-caption > input.form-text-caption {
         font-size: 8px !important;
         width: 230px !important;
-        border: 0.75px solid rgb(170, 168, 168);
+        border-bottom: 1px solid rgb(170, 168, 168) !important;
         height: 25px !important;
         padding-left: 8px !important;
     }
@@ -1578,6 +1584,7 @@ div.item-footer p {
     .appointment div, .accordion-body2 a {
         font-size: 12px;
         margin-left: 10px;
+        letter-spacing: 1px;
     }
     .tittle-form h2 {
         font-size: 18px;
@@ -1775,7 +1782,6 @@ div.item-footer p {
     .responds div.form-caption > input.form-text-caption:not(:last-child) {
         width: 170px !important;
         font-size: 7px;
-        border-bottom: 1px solid rgb(170, 168, 168) !important;
         border-radius: 0 0 0 5px !important;
         height: 20px;
     }

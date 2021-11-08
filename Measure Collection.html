@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VestonVux | Measure Collection</title>
+    <link rel="stylesheet" href="./Css/Measure.css">
+    <link rel="stylesheet" href="./Css/Home.css">   
+    <link rel="stylesheet" href="./Css/Collection.css"> 
+    <link rel="stylesheet" href="./Css/Online Store.css">
+    <link rel="shortcut icon" href="./images/images/LOGO VESTONVUX-04.png">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Js/JavaScript.js"></script>
+    <script src="./Js/Validation.js"></script>
+    <style>
+        .info {
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 0;
+        }
+        body {
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+  <!-----------------Navigation---------------->
+    <nav>
+        <ul class="header-topbar">
+            <li >
+                <a href="./index.html">
+                    VESTONVUX.COM
+                </a>
+            </li>
+            <li>
+                <a href="./Login.html">MY ACCOUNT</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/maps/dir/10.870013,106.6173419/371+Nguy%E1%BB%85n+Ki%E1%BB%87m,+Ph%C6%B0%E1%BB%9Dng+3,+G%C3%B2+V%E1%BA%A5p,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.8453975,106.6084666,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x317528e1fa99872d:0x6a2ca231c09e5a01!2m2!1d106.676983!2d10.8172801">STORE LOCATOR</a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-search search-toggle"></i>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fas fa-shopping-bag login-and-register"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="search-box">
+        <div class="search">
+            <i style="margin: 0 10px" class="fas fa-search search-icon" id="btnSearch" data-toggle="modal" data-target="#myModal"></i>
+            <input type="text" id="kw" placeholder="Search...">
+            <span class="clear" onclick="document.getElementById('kw').value = ''"></span>
+        </div>
+    </div>
+    
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Search Results </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Your Search in this box will be shown by the Gray color
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+
+    <div class="login-register">
+        <p>Log in or Register to My Account to access your bag across your devices.</p>
+        <a href="./Login.html"><input type="button" value="Login"></a>
+        <a href="./Register.html"><input type="button" value="Register"></a>
+    </div>
+
+
+    <div class="vestonvux">
+        <a href="./Anniversary.html"><img src="./images/images/LOGO VESTONVUX-02.png" alt=""></a>
+        <div id="toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li><a href="./New.html">NEW</a></li>
+            <li><a href="./Sale.html">SALE</a></li>
+            <li><a href="./Products.html">PRODUCTS</a></li>
+            <li><a href="./Collections.html">COLLECTIONS</a></li>
+            <li class="right"><a href="./Contact.html">CONTACT</a></li>
+            <li class="right"><a href="./About.html">ABOUT</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="banner-measure wow animation-in">
+    <div class="gif">
+        <iframe src="https://player.vimeo.com/video/524248011?autoplay=true&loop=1&autopause=1&autopause=0&muted=1&background=1" frameborder="0"></iframe>
+    </div>
+    <div class="text-banner">
+        <h1>VESTONVUX</h1>
+        <h2>MADE TO MEASURE</h2>
+    </div>
+</div>
+
+
+<div class="header-tour wow animation-inUp">
+    <h2>THE QUEEN’S GAMBIT</h2>
+    <p>Thirty-two pieces, sixty-four squares, limitless possibilities. The art of chess is the perfect metaphor for the VesstonVux Made to Measure service. A work of skill and calculated precision that brings to life timeless pieces, perfectly embodying the brand’s unique blend of contemporary and classic.</p>
+</div>
+
+
+<div class="cross-picture">
+    <div class="items-cross-picture height-18 wow animation-left">
+        <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/202514-500x500.jpg" alt="">
+        <div class="cube"></div>
+        <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/79461-500x500.jpg" alt="">
+        <div class="cube"></div>
+    </div>
+    <div class="items-cross-picture height-18 wow animation-right">
+        <div class="cube"></div>
+        <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/362487-500x500.jpg" alt="">
+        <div class="cube"></div>
+        <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/389460-500x500.jpg" alt="">
+    </div>
+    <div class="items-cross-picture height-18 wow animation-left">
+        <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/469876-500x500.jpg" alt="">
+        <div class="cube"></div>
+        <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/661565-500x500.jpg" alt="">
+        <div class="cube"></div>
+    </div>
+<div>
+
+
+<div class="header-tour wow animation-inUp">
+    <h2>MODERNITY MEETS TRADITION</h2>
+    <p>The Made to Measure services combines the longstanding Italian sartorial know-how with the innovation of the VestonVux design studios. The result has the refinement of the brand's signature aesthetics and the exquisite precision and level of personalisation that only bespoke suiting can offer. The highest expression of quality and design.</p>
+</div>
+
+<div class="all-cross-picture">
+    <div class="cross-picture-half">
+        <img class="wow animation-left" src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_05_1x1-2-1500x1500.jpg" alt="">
+        <div class="wow animation-right">
+            <div class="items-cross-picture">
+                <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_18_1x1-1-1500x1500.jpg" alt="">
+                <div class="cube-half">
+                    <div class="header-tour">
+                        <h2>A SUIT FULL OF CHARACTER</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="items-cross-picture">
+                <div class="cube-half">
+                    <div class="header-tour">
+                        <p>Presence, style, charm: the Made to Measure service embodies the hallmarks of VestonVux’s style</p>
+                    </div>
+                </div>
+                <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_15_1x1-1-1500x1500.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="all-cross-picture">
+    <div class="cross-picture-half">
+        <div class=" wow animation-left">
+            <div class="items-cross-picture">
+                <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_02_1x1-1500x1500.jpg" alt="">
+                <div class="cube-half">
+                    <div class="header-tour">
+                        <p>Created with individual changes to make them comfortable and practical, our suits work well not only for special occasions but also for a dynamic lifestyle</p>
+                    </div>
+                </div>
+            </div>
+            <div class="items-cross-picture">
+                <div class="cube-half">
+                    <div class="header-tour">
+                        <p>To meet the needs of a sophisticated, demanding clientele who want their clothes to truly reflect and enhance their strong personality.</p>
+                    </div>
+                </div>
+                <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_06_1x1-1500x1500.jpg" alt="">
+            </div>
+        </div>
+        <img class="wow animation-right" src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_01_1x1-1500x1500.jpg" alt="">
+    </div>
+</div>
+
+
+<div class="all-cross-picture">
+    <div class="cross-picture-half">
+        <img class="wow animation-left" src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_08_1x1-1500x1500.jpg" alt="">
+        <div class="wow animation-right">
+            <div class="items-cross-picture">
+                <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_19_1x1-1500x1500.jpg" alt="">
+                <div class="cube-half">
+                    <div class="header-tour">
+                        <h2>A UNIQUE EXPERIENCE</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="items-cross-picture">
+                <div class="cube-half">
+                    <div class="header-tour">
+                        <p>Each of our customers is guided through the process of constructing a garment that is expertly tailored especially for them, with utmost precision.</p>
+                    </div>
+                </div>
+                <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_17_1x1-1500x1500.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="all-cross-picture">
+    <div class="cross-picture-half">
+        <div class="wow animation-left"> 
+            <div class="items-cross-picture">
+                <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_13_1x1-1500x1500.jpg" alt="">
+                <div class="cube-half">
+                    <div class="header-tour">
+                        <p>The feel of the fabrics, the finish of the details, the exclusive rapport that builds up with the tailor </p>
+                    </div>
+                </div>
+            </div>
+            <div class="items-cross-picture">
+                <div class="cube-half">
+                    <div class="header-tour">
+                        <p>Are just some of the elements that make the experience of having a sophisticated, one-of-a-kind piece of tailoring constructed in our ateliers stand out.</p>
+                    </div>
+                </div>
+                <img src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_07_portrait_1x1-1500x1500.jpg" alt="">
+            </div>
+        </div>
+        <img class="wow animation-right" src="https://madetomeasure.catalogue.giorgioarmani.net/wp-content/uploads/2021/03/GA_MtM_09_1x1-1-1500x1500.jpg" alt="">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+  <!----------Footer--------->
+  <hr style="visibility:hidden;">
+  <hr class="hr-header">
+  <div>	
+      <div>
+          <div>
+              <h2 class="text-footer">CONTACT US</h2>
+          </div>
+          <div class="social">
+              <a href="https://vi-vn.facebook.com/"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/?lang=vi"><i class="fab fa-twitter"></i></a>
+              <a href="https://ads.google.com/intl/vi_vn/getstarted/?subid=vn-vi-ha-awa-bk-c-l00!o3~Cj0KCQjwpreJBhDvARIsAF1_BU0gVty5XnpyxESqt2ekO4PX48hqa7GhxhUliWslavbkWfshDjcpb70aAhLTEALw_wcB~123593086017~kwd-21283811~13984401112~538552239800&gclsrc=aw.ds&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU0gVty5XnpyxESqt2ekO4PX48hqa7GhxhUliWslavbkWfshDjcpb70aAhLTEALw_wcB"><i class="fab fa-google-plus-g"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+              <hr style="visibility: hidden;">
+           </div>
+      </div>
+  </div>
+
+  <footer class="footer">
+      <div class="row item-footer">
+          <div>
+                <hr class="hr-footer">
+                <h5 class="title-footer">NEED HELP?</h5>
+                <hr class="hr-footer">
+                <p>028.3920.7621</p>
+                <p>info@vestonvux.com</p>
+                <p>371 Nguyen Kiem, Ward 3, Go Vap District, HCM city</p>
+          </div>
+          <div>
+                <hr class="hr-footer">
+                <h5 class="title-footer">WORKING HOURS</h5>
+                <hr class="hr-footer">
+                <p>Monday-Friday: 8:00 - 20:00</p>
+                <p>Weekend: 8:00 - 17:00</p>
+          </div>
+          <div>
+              <hr class="hr-footer">
+      <h5 class="title-footer">BECOME A MEMBER</h5>
+      <hr class="hr-footer">
+              <p>Join now and get 10% off your second purchase, and free returns on all online purchases!</p>
+          </div>
+      </div>
+      <div class="copy">
+          <hr class="hr-end">
+              <h5> Copyright &copy; VESTONVUX</h5>
+      </div>
+  </footer>
+</body>
+</html>
