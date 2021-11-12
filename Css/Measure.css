@@ -26,14 +26,15 @@ body {
     letter-spacing: 1.5px;
 }
 .submit {
-    width: 250px !important;
-    margin: 0 !important;
+    width: auto !important;
+    padding: 15px 30px;
+    height: auto !important;
 }
 .carousel-caption-measure {
     position: absolute;
     top: 20%;
     color: white;
-    width: 50%;
+    width: 60%;
     margin-left: 5%;
     text-shadow: 1px 1px 1px black;
 }
@@ -42,16 +43,15 @@ body {
     line-height: 1.3;
 }
 .text-measure {
-    font-size: 26px;
+    font-size: 32px;
     font-family: Acta Display W01 Book;
     letter-spacing: 2px;
+    line-height: 30px;
 }
 
 .gif iframe {
     width: 100vw;
     height: 57.5vw;
-    min-width: 177vh;
-    min-height: 100vh;
 }
 .banner-measure {
     position: relative;
@@ -71,6 +71,9 @@ body {
 .text-banner h2 {
     font-family: Acta Display W01 Book;
     margin: 0;
+}
+.description {
+    color: gray;
 }
 .items-cross-picture {
     display: flex;
@@ -98,4 +101,110 @@ body {
 }
 .button-holiday input, .button-anniversary input {
     width: auto !important;
+}
+
+@media screen and (max-width: 1050px) /*150%*/ {
+    .measure-text h1 {
+        font-size: 35px;
+    }
+    .measure-text p {
+        font-size: 14px;
+    }
+    .measure-text h2, .text-measure, .text-banner h2 {
+        font-size: 25px;
+    }
+    .text-banner h1 {
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) /*200%*/ {
+    .measure-text h1 {
+        font-size: 30px;
+    }
+    .measure-text p, .header-tour p {
+        font-size: 12px;
+    }
+    .measure-text h2, .text-measure, .header-tour h2, .text-banner h2 {
+        font-size: 20px;
+    }
+    .submit {
+        padding: 10px 20px;
+    }
+    .text-banner h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 750px) /*250%*/ {
+    .measure-text h1 {
+        font-size: 25px;
+    }
+    .measure-text p, .header-tour p {
+        font-size: 10px;
+    }
+    .measure-text h2, .text-measure, .header-tour h2, .text-banner h2 {
+        font-size: 18px;
+    }
+    .text-measure {
+        line-height: 20px;
+    }
+    .carousel-caption-measure {
+        top: 10%;
+    }
+    .text-banner h1 {
+        font-size: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) /*300%*/ {
+    .measure-text h1 {
+        font-size: 20px;
+    }
+    .measure-text p, .header-tour p {
+        font-size: 8px;
+    }
+    .measure-text h2, .text-measure, .header-tour h2, .text-banner h2 {
+        font-size: 15px;
+    }
+    .submit {
+        font-size: 8px !important;
+        padding: 7px 14px;
+    }
+}
+
+@media screen and (max-width: 450px) /*400%*/ {
+    .measure-text h1 {
+        font-size: 15px;
+    }
+    .measure-text p,.carousel-inner p, .header-tour p {
+        font-size: 6px !important;
+        margin: 2px !important;
+    }
+    .measure-text h2, .text-measure, .header-tour h2 {
+        font-size: 12px;
+        margin: 0;
+        line-height: 15px;
+    }
+    
+    .text-banner h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 360px) /*500%*/ {
+    .measure-text h1 {
+        font-size: 12px;
+    }
+    .measure-text p, .header-tour p {
+        font-size: 4px;
+    }
+    .measure-text h2, .text-measure, .header-tour h2, .text-banner h2 {
+        font-size: 10px;
+    }
+    .submit {
+        padding: 5px 10px;
+    }
 }
