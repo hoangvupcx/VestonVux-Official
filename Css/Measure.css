@@ -74,6 +74,9 @@ body {
 }
 .description {
     color: gray;
+    position: absolute;
+    width: 100%;
+    top: 200%;
 }
 .items-cross-picture {
     display: flex;
@@ -173,6 +176,9 @@ body {
         font-size: 8px !important;
         padding: 7px 14px;
     }
+    .description {
+        top: 170%;
+    }
 }
 
 @media screen and (max-width: 450px) /*400%*/ {
@@ -192,6 +198,9 @@ body {
     .text-banner h1 {
         font-size: 35px;
     }
+    .description {
+        top: 150%;
+    }
 }
 
 @media screen and (max-width: 360px) /*500%*/ {
@@ -206,5 +215,8 @@ body {
     }
     .submit {
         padding: 5px 10px;
+    }
+    .description {
+        top: 120%;
     }
 }
