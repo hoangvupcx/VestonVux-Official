@@ -53,6 +53,10 @@ $(document).ready(function() {
         $('html,body').animate({scrollTop: $(".Detail-product").prop('offsetTop')},800);
     }); // Button di chuyển xuống details products
 
+    $('.submit').click(function(event) {
+        $('html,body').animate({scrollTop: $(".footer-about").prop('offsetTop')},800);
+    });
+
     $('.accordion-item1.active .accordion-body1').slideDown(); // Khi accordion active thì đổi màu nền 
     $('.accordion-header1').click(function(){
         $(this).parent().toggleClass('active');

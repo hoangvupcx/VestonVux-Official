@@ -38,7 +38,7 @@ div.header-about > p {
     text-align: center !important;
     background: black;
 }
-img {
+.content img {
     width: 50%;
     height: auto;
     float: left;
