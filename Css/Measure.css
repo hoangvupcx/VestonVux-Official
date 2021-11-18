@@ -56,6 +56,17 @@ div.measure {
 .banner-measure {
     position: relative;
 }
+.caption-measure {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px !important;
+}
+.banner-measure p {
+    margin: 0;
+}
 .text-banner {
     position: absolute;
     top: 40%;
